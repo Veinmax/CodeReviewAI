@@ -35,6 +35,7 @@ cd CodeReviewAI
 ### Step 2: Configure Environment Variables
 
 Create a .env file in the project root and copy the environment variables from the .env.example file
+To use Grok AI you can get API key from https://console.x.ai/team/813592f7-9394-42f2-b980-09badd39995e/api-keys 
 
 ### Step 3: Build and Run with Docker Compose
 To build and start the application using Docker Compose:
