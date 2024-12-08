@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "CodeReviewAI"
+version = "0.1.0"
+description = "A tool for automating code reviews using OpenAI and GitHub APIs"
+authors = ["Artur Kochut <arturjust88@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.6"
+uvicorn = "^0.32.1"
+python-dotenv = "^1.0.1"
+pygithub = "^2.5.0"
+httpx = "^0.28.0"
+openai = "^1.57.0"
+pydantic = "^2.10.3"
+redis = "^5.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
